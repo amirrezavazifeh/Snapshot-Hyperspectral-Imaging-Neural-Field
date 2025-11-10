@@ -16,9 +16,9 @@ However, conventional HSI systems face a fundamental **trade-off between spatial
 
 - **Spatial Scanning (push-broom systems):** captures one line of the scene at a time, requiring motion of the object or sensor.  
 - **Spectral Scanning (filter-based systems):** sequentially captures one wavelength at a time, leading to long acquisition times and temporal misalignment.  
-- **Snapshot Imaging:** captures all wavelengths in a single exposure using multiplexed optics or coded apertures — but produces **sparse, spectrally mixed measurements**.
+- **Snapshot Imaging:** captures all wavelengths in a single exposure using multiplexed optics or coded apertures, but produces **sparse, spectrally mixed measurements**.
 
-The last category—**snapshot hyperspectral imaging**—offers high-speed acquisition but poses a major reconstruction challenge. Each pixel typically measures only one wavelength, making the recovery of the full 3D hyperspectral cube from a 2D snapshot an **ill-posed inverse problem**.  
+The last category, **snapshot hyperspectral imaging**, offers high-speed acquisition but poses a major reconstruction challenge. Each pixel typically measures only one wavelength, making the recovery of the full 3D hyperspectral cube from a 2D snapshot an **ill-posed inverse problem**.  
 
 ---
 

@@ -24,20 +24,17 @@ The last category—**snapshot hyperspectral imaging**—offers high-speed acqui
 
 ## ⚙️ Method
 
-In our approach, we address this challenge by combining with **implicit neural representations**, using a **sinusoidal activation function (SIREN)** to model the hyperspectral cube as a continuous function of spatial–spectral coordinates.
+In our approach, we address this challenge by combining with **implicit neural representations**, using a **sinusoidal activation function (SIREN)** to model the hyperspectral cube as a continuous function of spatial–spectral coordinates. Each snapshot image is treated as a set of **sparse spectral observations**, where only a fraction of pixels correspond to each wavelength due to coded apertures or filter mosaics.   We model the true hyperspectral signal as a **continuous function**:
 
-Each snapshot image is treated as a set of **sparse spectral observations**, where only a fraction of pixels correspond to each wavelength due to coded apertures or filter mosaics.  
-We model the true hyperspectral signal as a **continuous function**:
+<p align="center">
+  <strong>f<sub>θ</sub>(x, y, λ) → I(x, y, λ)</strong>
+</p>
 
-\[
-f_\theta(x, y, \lambda) \rightarrow I(x, y, \lambda)
-\]
-
-where \((x, y, \lambda)\) are spatial–spectral coordinates, and \(f_\theta\) is a **SIREN network** (sinusoidal MLP).  
+where (<em>x</em>, <em>y</em>, <em>λ</em>) are spatial–spectral coordinates, and <strong>f<sub>θ</sub></strong> is a <strong>SIREN network</strong> (sinusoidal MLP).  
 The sinusoidal activation captures high-frequency spatial and spectral structures that ReLU-based networks typically miss.
 
-The model is trained to minimize a **mean squared reconstruction loss** between predicted intensities and the sparse coded measurements.  
-Once optimized, \(f_\theta\) becomes a **fully continuous hyperspectral field**, from which any wavelength or combination can be queried and visualized at arbitrary resolution.
+The model is trained to minimize a <strong>mean squared reconstruction loss</strong> between predicted intensities and the sparse coded measurements.  
+Once optimized, <strong>f<sub>θ</sub></strong> becomes a <strong>fully continuous hyperspectral field</strong>, from which any wavelength or combination can be queried and visualized at arbitrary resolution.
 
 <p align="center">
   <img src="Code/Method.png" alt="Method Overview" width="700">

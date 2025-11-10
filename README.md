@@ -4,7 +4,9 @@ This repository contains the implementation of our method for **snapshot hypersp
 
 > **J. Boondicharern, A. Vazifeh, and J. W. Fleischer**,  
 > *Snapshot Hyperspectral Imaging via Compressive Sensing and Implicit Neural Representation,*  
-> *Computational Optical Sensing and Imaging (COSI), Optica Imaging Congress 2025*  
+> *Computational Optical Sensing and Imaging (COSI), Optica Imaging Congress 2025,*  
+> [https://doi.org/10.1364/COSI.2025.CTu1B.5](https://doi.org/10.1364/COSI.2025.CTu1B.5)
+
 
 ---
 
@@ -70,10 +72,11 @@ If you find this repository useful, please consider citing our paper:
 ```bibtex
 @inproceedings{boondicharern2025snapshot,
   title     = {Snapshot Hyperspectral Imaging via Compressive Sensing and Implicit Neural Representation},
-  author    = {Jatearoon Boondicharern, Amir Reza Vazifeh, and Jason W. Fleischer},
+  author    = {Jatearoon Boondicharern and Amir Reza Vazifeh and Jason W. Fleischer},
   booktitle = {Computational Optical Sensing and Imaging (COSI), Optica Imaging Congress 2025},
   series    = {Technical Digest Series},
   publisher = {Optica Publishing Group},
   year      = {2025},
-  paper     = {CTu1B.5}
+  paper     = {CTu1B.5},
+  doi       = {10.1364/COSI.2025.CTu1B.5}
 }

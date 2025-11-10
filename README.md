@@ -1,6 +1,6 @@
 # Snapshot Hyperspectral Imaging via Compressive Sensing and Implicit Neural Representation
 
-This repository contains the implementation of our method for **snapshot hyperspectral image reconstruction** using **implicit neural representations (INRs)**, presented in:
+This repository contains the implementation of our method for **snapshot hyperspectral image reconstruction** using **implicit neural representations**, presented in:
 
 > **J. Boondicharern, A. Vazifeh, and J. W. Fleischer**,  
 > *Snapshot Hyperspectral Imaging via Compressive Sensing and Implicit Neural Representation,*  

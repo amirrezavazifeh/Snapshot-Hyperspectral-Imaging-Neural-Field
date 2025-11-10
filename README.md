@@ -8,7 +8,7 @@ This repository contains the implementation of our method for **snapshot hypersp
 
 ---
 
-## 🧭 Overview
+## Overview
 
 **Hyperspectral Imaging (HSI)** captures images across many narrow and contiguous spectral bands.  
 Unlike RGB imaging, which captures only three color channels, HSI provides a rich spectral signature at every pixel, enabling powerful applications in **remote sensing**, **environmental monitoring**, **precision agriculture**, and **medical diagnostics**.

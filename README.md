@@ -59,8 +59,7 @@ Below are qualitative reconstruction results for one spectral band from each dat
   <img src="Results/CS-hsdb/video/CS-hsdb.png" width=100%" alt="CS-hsdb result">
 </p>
 <p align="center">
-  <em>Reconstruction result for one spectral band from the CS-hsdb dataset.</em><br>
-  <a href="Results/CS-hsdb/video/CS-hsdb_jet.mp4">Download full spectral reconstruction video.</a>
+  <em>Reconstruction result for one spectral band from the CS-hsdb dataset.</em><br><a href="Results/CS-hsdb/video/CS-hsdb_jet.mp4">Download full spectral reconstruction video.</a>
 </p>
 
 ---

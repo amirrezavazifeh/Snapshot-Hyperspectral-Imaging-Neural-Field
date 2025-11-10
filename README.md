@@ -52,8 +52,8 @@ We tested our method on **four hyperspectral datasets**: **CS-hsdb**, **HS-SOD**
 Each dataset contains 10 spectral bands, resulting in hyperspectral cubes of dimension *(H, W, 10)*.
 
 For each dataset, we masked **90% of the pixels** per spectral band and used **complementary aperture codes** across wavelengths.  
-Our reconstruction network then recovered the full hyperspectral cube from these sparse coded measurements.  
-Below are qualitative reconstruction results for one spectral band from each dataset.
+Our reconstruction network then recovered the full hyperspectral cube from these sparse coded measurements.   
+Below are qualitative reconstruction results for one spectral band from each dataset. The videos show complete spectral sweeps reconstructed from a single coded snapshot.
 
 ---
 
@@ -62,7 +62,7 @@ Below are qualitative reconstruction results for one spectral band from each dat
 </p>
 <p align="center">
   <em>Reconstruction result for one spectral band from the CS-hsdb dataset.</em><br>
-  🎬 <a href="Results/CS-hsdb/video/CS-hsdb_jet.mp4">Download full spectral reconstruction video</a>
+  🎬 <a href="Results/CS-hsdb/video/CS-hsdb_jet.mp4">Download full spectral reconstruction video.</a>
 </p>
 
 ---
@@ -87,12 +87,6 @@ Below are qualitative reconstruction results for one spectral band from each dat
 
 ---
 
-<p align="center">
-  <em>Each hyperspectral cube was reconstructed from only 10% of the observed pixels using complementary coded apertures.  
-  The videos show complete spectral sweeps reconstructed from a single coded snapshot.</em>
-</p>
-
----
 
 ## Key Features
 

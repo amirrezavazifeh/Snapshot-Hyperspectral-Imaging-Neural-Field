@@ -26,10 +26,6 @@ The last category—**snapshot hyperspectral imaging**—offers high-speed acqui
 
 In our approach, we address this challenge by combining with **implicit neural representations**, using a **sinusoidal activation function (SIREN)** to model the hyperspectral cube as a continuous function of spatial–spectral coordinates.
 
-This approach enables reconstruction of a complete hyperspectral cube from a single coded 2D measurement, performing both spectral interpolation and extrapolation without any external supervision or prior information.
-
-### ✳️ Core Idea
-
 Each snapshot image is treated as a set of **sparse spectral observations**, where only a fraction of pixels correspond to each wavelength due to coded apertures or filter mosaics.  
 We model the true hyperspectral signal as a **continuous function**:
 
@@ -48,6 +44,8 @@ Once optimized, \(f_\theta\) becomes a **fully continuous hyperspectral field**,
   <br>
   <em>Figure: Overview of the proposed snapshot hyperspectral reconstruction framework using implicit neural representation.</em>
 </p>
+
+This approach enables reconstruction of a complete hyperspectral cube from a single coded 2D measurement, performing both spectral interpolation and extrapolation without any external supervision or prior information.
 
 ---
 

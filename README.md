@@ -46,10 +46,10 @@ This approach enables reconstruction of a complete hyperspectral cube from a sin
 
 ---
 
-## 🎥 Results
+## Results
 
 We tested our method on **four hyperspectral datasets**: **CS-hsdb**, **HS-SOD**, **Dermatology**, and **Pavia University**.  
-Each dataset contains 10 spectral bands, resulting in hyperspectral cubes of dimension *(H, W, 10)*.
+10 spectral bands were selected for each dataset, resulting in hyperspectral cubes of dimension *(H, W, 10)*.
 
 For each dataset, we masked **90% of the pixels** per spectral band and used **complementary aperture codes** across wavelengths.  
 Our reconstruction network then recovered the full hyperspectral cube from these sparse coded measurements.   
@@ -62,7 +62,7 @@ Below are qualitative reconstruction results for one spectral band from each dat
 </p>
 <p align="center">
   <em>Reconstruction result for one spectral band from the CS-hsdb dataset.</em><br>
-  🎬 <a href="Results/CS-hsdb/video/CS-hsdb_jet.mp4">Download full spectral reconstruction video.</a>
+  <a href="Results/CS-hsdb/video/CS-hsdb_jet.mp4">Download full spectral reconstruction video.</a>
 </p>
 
 ---
@@ -72,7 +72,7 @@ Below are qualitative reconstruction results for one spectral band from each dat
 </p>
 <p align="center">
   <em>Reconstruction result for one spectral band from the HS-SOD dataset.</em><br>
-  🎬 <a href="Results/HS-SOD/video/HS-SOD_jet.mp4">Download full spectral reconstruction video</a>
+  <a href="Results/HS-SOD/video/HS-SOD_jet.mp4">Download full spectral reconstruction video</a>
 </p>
 
 ---
@@ -82,7 +82,7 @@ Below are qualitative reconstruction results for one spectral band from each dat
 </p>
 <p align="center">
   <em>Reconstruction result for one spectral band from the Dermatology dataset.</em><br>
-  🎬 <a href="Results/dermatology/video/dermatology_jet.mp4">Download full spectral reconstruction video</a>
+  <a href="Results/dermatology/video/dermatology_jet.mp4">Download full spectral reconstruction video</a>
 </p>
 
 ---

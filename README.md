@@ -48,8 +48,6 @@ This approach enables reconstruction of a complete hyperspectral cube from a sin
 
 ## 🎥 Results
 
-## 🎥 Results
-
 We tested our method on **four hyperspectral datasets**: **CS-hsdb**, **HS-SOD**, **Dermatology**, and **Pavia University**.  
 Each dataset contains 10 spectral bands, resulting in hyperspectral cubes of dimension *(H, W, 10)*.
 
@@ -57,24 +55,52 @@ For each dataset, we masked **90% of the pixels** per spectral band and used **c
 Our reconstruction network then recovered the full hyperspectral cube from these sparse coded measurements.  
 Below are qualitative reconstruction results for one spectral band from each dataset.
 
-<p align="center">
-  <img src="Results/CS-hsdb/video/CS-hsdb.png" width="45%" alt="CS-hsdb result">
-  <img src="Results/HS-SOD/video/HS-SOD.png" width="45%" alt="HS-SOD result"><br><br>
-  <img src="Results/dermatology/video/dermatology.png" width="45%" alt="Dermatology result">
-  <img src="Results/pavia_u/video/pavia_u.png" width="45%" alt="PaviaU result">
-</p>
+---
 
 <p align="center">
-  <em>Figure: Reconstruction results for a single spectral band from each dataset.  
-  Each hyperspectral cube was reconstructed from only 10% of the observed pixels using complementary coded apertures.</em>
+  <img src="Results/CS-hsdb/video/CS-hsdb.png" width="70%" alt="CS-hsdb result">
+</p>
+<p align="center">
+  <em>Reconstruction result for one spectral band from the CS-hsdb dataset.</em><br>
+  🎬 <a href="Results/CS-hsdb/video/CS-hsdb_jet.mp4">Download full spectral reconstruction video</a>
 </p>
 
-Videos showing full spectral reconstructions for each dataset can be downloaded here:
+---
 
-- 🎬 [CS-hsdb Reconstruction Video](Results/CS-hsdb/video/CS-hsdb_jet.mp4)  
-- 🎬 [HS-SOD Reconstruction Video](Results/HS-SOD/video/HS-SOD_jet.mp4)  
-- 🎬 [Dermatology Reconstruction Video](Results/dermatology/video/dermatology_jet.mp4)  
-- 🎬 [Pavia University Reconstruction Video](Results/pavia_u/video/pavia_u_jet.mp4)
+<p align="center">
+  <img src="Results/HS-SOD/video/HS-SOD.png" width="70%" alt="HS-SOD result">
+</p>
+<p align="center">
+  <em>Reconstruction result for one spectral band from the HS-SOD dataset.</em><br>
+  🎬 <a href="Results/HS-SOD/video/HS-SOD_jet.mp4">Download full spectral reconstruction video</a>
+</p>
+
+---
+
+<p align="center">
+  <img src="Results/dermatology/video/dermatology.png" width="70%" alt="Dermatology result">
+</p>
+<p align="center">
+  <em>Reconstruction result for one spectral band from the Dermatology dataset.</em><br>
+  🎬 <a href="Results/dermatology/video/dermatology_jet.mp4">Download full spectral reconstruction video</a>
+</p>
+
+---
+
+<p align="center">
+  <img src="Results/pavia_u/video/pavia_u.png" width="70%" alt="PaviaU result">
+</p>
+<p align="center">
+  <em>Reconstruction result for one spectral band from the Pavia University dataset.</em><br>
+  🎬 <a href="Results/pavia_u/video/pavia_u_jet.mp4">Download full spectral reconstruction video</a>
+</p>
+
+---
+
+<p align="center">
+  <em>Each hyperspectral cube was reconstructed from only 10% of the observed pixels using complementary coded apertures.  
+  The videos show complete spectral sweeps reconstructed from a single coded snapshot.</em>
+</p>
 
 ---
 

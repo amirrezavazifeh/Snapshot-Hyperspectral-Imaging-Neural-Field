@@ -41,7 +41,7 @@ This approach enables reconstruction of a complete hyperspectral cube from a sin
 <p align="center">
   <img src="Code/Method.png" alt="Method Overview" width="700">
   <br>
-  <em>Figure 1: Overview of the proposed snapshot hyperspectral reconstruction framework using implicit neural representation.</em>
+  <em>Figure 1: Overview of the proposed snapshot hyperspectral reconstruction framework. </em>
 </p>
 
 ### Key Features

@@ -52,7 +52,7 @@ Once optimized, \(f_\theta\) becomes a **fully continuous hyperspectral field**,
 <p align="center">
   <img src="Code/Method.png" alt="Method Overview" width="700">
   <br>
-  <em>Figure: Overview of the proposed snapshot hyperspectral reconstruction framework using compressive sensing and implicit neural representation.</em>
+  <em>Figure: Overview of the proposed snapshot hyperspectral reconstruction framework using implicit neural representation.</em>
 </p>
 
 ---

@@ -10,8 +10,7 @@ This repository contains the implementation of our method for **snapshot hypersp
 
 ## Overview
 
-**Hyperspectral Imaging (HSI)** captures images across many narrow and contiguous spectral bands.  
-Unlike RGB imaging, which captures only three color channels, HSI provides a rich spectral signature at every pixel, enabling powerful applications in **remote sensing**, **environmental monitoring**, **precision agriculture**, and **medical diagnostics**.
+**Hyperspectral Imaging (HSI)** captures images across many narrow and contiguous spectral bands. Unlike RGB imaging, which captures only three color channels, HSI provides a rich spectral signature at every pixel, enabling powerful applications in **remote sensing**, **environmental monitoring**, **precision agriculture**, and **medical diagnostics**.
 
 However, conventional HSI systems face a fundamental **trade-off between spatial, spectral, and temporal resolution**:
 
@@ -19,20 +18,15 @@ However, conventional HSI systems face a fundamental **trade-off between spatial
 - **Spectral Scanning (filter-based systems):** sequentially captures one wavelength at a time, leading to long acquisition times and temporal misalignment.  
 - **Snapshot Imaging:** captures all wavelengths in a single exposure using multiplexed optics or coded apertures — but produces **sparse, spectrally mixed measurements**.
 
-The last category—**snapshot hyperspectral imaging**—offers high-speed acquisition but poses a major reconstruction challenge.  
-Each pixel typically measures only one wavelength, making the recovery of the full 3D hyperspectral cube from a 2D snapshot an **ill-posed inverse problem**.  
+The last category—**snapshot hyperspectral imaging**—offers high-speed acquisition but poses a major reconstruction challenge. Each pixel typically measures only one wavelength, making the recovery of the full 3D hyperspectral cube from a 2D snapshot an **ill-posed inverse problem**.  
 
 ---
 
 ## ⚙️ Method
 
-In our approach, we address this challenge by combining **compressive sensing** with **implicit neural representations**, using a **sinusoidal activation network (SIREN)** to model the hyperspectral cube as a continuous function of spatial–spectral coordinates.
+In our approach, we address this challenge by combining with **implicit neural representations**, using a **sinusoidal activation function (SIREN)** to model the hyperspectral cube as a continuous function of spatial–spectral coordinates.
 
-This allows us to:
-
-- **Reconstruct** full hyperspectral cubes from a single 2D coded measurement.  
-- **Perform both interpolation and extrapolation** across spectral dimensions.  
-- **Achieve high-quality reconstructions** without external supervision or prior spectral correlations.
+This approach enables reconstruction of a complete hyperspectral cube from a single coded 2D measurement, performing both spectral interpolation and extrapolation without any external supervision or prior information.
 
 ### ✳️ Core Idea
 

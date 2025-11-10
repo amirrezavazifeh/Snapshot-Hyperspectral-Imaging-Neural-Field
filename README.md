@@ -2,7 +2,7 @@
 
 This repository contains the implementation of our method for **snapshot hyperspectral image reconstruction** using **implicit neural representations**, presented in:
 
-> **J. Boondicharern, A. Vazifeh, and J. W. Fleischer**,  
+> **J. Boondicharern, A. R. Vazifeh, and J. W. Fleischer**,  
 > *Snapshot Hyperspectral Imaging via Compressive Sensing and Implicit Neural Representation,*  
 > *Computational Optical Sensing and Imaging (COSI), Optica Imaging Congress 2025,*  
 > [https://doi.org/10.1364/COSI.2025.CTu1B.5](https://doi.org/10.1364/COSI.2025.CTu1B.5)

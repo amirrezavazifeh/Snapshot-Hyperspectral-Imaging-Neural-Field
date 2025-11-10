@@ -44,6 +44,12 @@ This approach enables reconstruction of a complete hyperspectral cube from a sin
   <em>Figure 1: Overview of the proposed snapshot hyperspectral reconstruction framework using implicit neural representation.</em>
 </p>
 
+## Key Features
+
+- ✅ **Single-shot reconstruction** from sparse coded measurements  
+- ✅ **Fully unsupervised** optimization (no pretraining or priors)  
+- ✅ **Sensor-agnostic design**, compatible with various aperture codes
+
 ---
 
 ## Results
@@ -57,7 +63,7 @@ Below are qualitative reconstruction results for one spectral band from each dat
 
 <p align="center">
   <img src="Results/CS-hsdb/video/CS-hsdb.png" width="100%" alt="CS-hsdb result"><br>
-  <em>Reconstruction result for one spectral band from the CS-hsdb dataset — </em>
+  <em>Figure 2: Reconstruction result for one spectral band from the CS-hsdb dataset — </em>
   <a href="Results/CS-hsdb/video/CS-hsdb_jet.mp4">Download full spectral reconstruction video</a>
 </p>
 
@@ -65,7 +71,7 @@ Below are qualitative reconstruction results for one spectral band from each dat
 
 <p align="center">
   <img src="Results/HS-SOD/video/HS-SOD.png" width="100%" alt="HS-SOD result"><br>
-  <em>Reconstruction result for one spectral band from the HS-SOD dataset — </em>
+  <em>Figure 3: Reconstruction result for one spectral band from the HS-SOD dataset — </em>
   <a href="Results/HS-SOD/video/HS-SOD_jet.mp4">Download full spectral reconstruction video</a>
 </p>
 
@@ -73,7 +79,7 @@ Below are qualitative reconstruction results for one spectral band from each dat
 
 <p align="center">
   <img src="Results/dermatology/video/dermatology.png" width="100%" alt="Dermatology result"><br>
-  <em>Reconstruction result for one spectral band from the Dermatology dataset — </em>
+  <em>Figure 4: Reconstruction result for one spectral band from the Dermatology dataset — </em>
   <a href="Results/dermatology/video/dermatology_jet.mp4">Download full spectral reconstruction video</a>
 </p>
 
@@ -81,19 +87,9 @@ Below are qualitative reconstruction results for one spectral band from each dat
 
 <p align="center">
   <img src="Results/pavia_u/video/pavia_u.png" width="100%" alt="PaviaU result"><br>
-  <em>Reconstruction result for one spectral band from the Pavia University dataset — </em>
+  <em>Figure 5: Reconstruction result for one spectral band from the Pavia University dataset — </em>
   <a href="Results/pavia_u/video/pavia_u_jet.mp4">Download full spectral reconstruction video</a>
 </p>
-
----
-
-
-
-## Key Features
-
-- ✅ **Single-shot reconstruction** from sparse coded measurements  
-- ✅ **Fully unsupervised** optimization (no pretraining or priors)  
-- ✅ **Sensor-agnostic design**, compatible with various aperture codes
 
 ---
 

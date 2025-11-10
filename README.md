@@ -46,9 +46,9 @@ This approach enables reconstruction of a complete hyperspectral cube from a sin
 
 ### Key Features
 
-- ✅ **Single-shot reconstruction** from sparse coded measurements  
-- ✅ **Fully unsupervised** optimization (no pretraining or priors)  
-- ✅ **Sensor-agnostic design**, compatible with various aperture codes
+- **Single-shot reconstruction** from sparse coded measurements  
+- **Fully unsupervised** optimization (no pretraining or priors)  
+- **Sensor-agnostic design**, compatible with various aperture codes
 
 ---
 

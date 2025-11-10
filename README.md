@@ -37,10 +37,8 @@ The model is trained to minimize a <strong>mean squared reconstruction loss</str
 <p align="center">
   <img src="Code/Method.png" alt="Method Overview" width="700">
   <br>
-  <em>Figure: Overview of the proposed snapshot hyperspectral reconstruction framework using implicit neural representation.</em>
+  <em>Figure: Overview of the proposed snapshot hyperspectral reconstruction framework using implicit neural representation. This approach enables reconstruction of a complete hyperspectral cube from a single coded 2D measurement, performing both spectral interpolation and extrapolation without any external supervision or prior information.</em>
 </p>
-
-This approach enables reconstruction of a complete hyperspectral cube from a single coded 2D measurement, performing both spectral interpolation and extrapolation without any external supervision or prior information.
 
 ---
 

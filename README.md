@@ -24,7 +24,7 @@ The last category, **snapshot hyperspectral imaging**, offers high-speed acquisi
 
 ---
 
-## ⚙️ Method
+## Method
 
 In our approach, we address this challenge by combining with **implicit neural representations**, using a **sinusoidal activation function (SIREN)** to model the hyperspectral cube as a continuous function of spatial–spectral coordinates. Each snapshot image is treated as a set of **sparse spectral observations**, where only a fraction of pixels correspond to each wavelength due to coded apertures or filter mosaics.   We model the true hyperspectral signal as a **continuous function**:
 
@@ -46,7 +46,7 @@ This approach enables reconstruction of a complete hyperspectral cube from a sin
 
 ---
 
-## 🎥 Results
+## Results
 
 We demonstrate robust hyperspectral reconstruction across several benchmark and real-world datasets.  
 The method produces smooth, high-fidelity reconstructions from heavily undersampled single-shot measurements.
@@ -55,7 +55,7 @@ The method produces smooth, high-fidelity reconstructions from heavily undersamp
 
 ---
 
-## 🧩 Key Features
+## Key Features
 
 - ✅ **Single-shot reconstruction** from sparse coded measurements  
 - ✅ **Fully unsupervised** optimization (no pretraining or priors)  
@@ -65,7 +65,7 @@ The method produces smooth, high-fidelity reconstructions from heavily undersamp
 
 ---
 
-## 📚 Citation
+## Citation
 
 If you find this repository useful, please consider citing our paper:
 

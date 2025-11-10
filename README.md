@@ -34,10 +34,12 @@ where (<em>x</em>, <em>y</em>; <em>λ</em>) are spatial–spectral coordinates, 
 
 The model is trained to minimize a <strong>mean squared reconstruction loss</strong> between predicted intensities and the sparse coded measurements. Once optimized, <strong>f<sub>θ</sub></strong> becomes a <strong>fully continuous hyperspectral field</strong>, from which any wavelength or combination can be queried and visualized at arbitrary resolution.
 
+This approach enables reconstruction of a complete hyperspectral cube from a single coded 2D measurement, performing both spectral interpolation and extrapolation without any external supervision or prior information.
+
 <p align="center">
   <img src="Code/Method.png" alt="Method Overview" width="700">
   <br>
-  <em>Figure: Overview of the proposed snapshot hyperspectral reconstruction framework using implicit neural representation. This approach enables reconstruction of a complete hyperspectral cube from a single coded 2D measurement, performing both spectral interpolation and extrapolation without any external supervision or prior information.</em>
+  <em>Figure: Overview of the proposed snapshot hyperspectral reconstruction framework using implicit neural representation.</em>
 </p>
 
 ---

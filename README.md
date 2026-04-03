@@ -1,12 +1,23 @@
-# Snapshot Hyperspectral Imaging via Implicit Neural Representation
+<div align="center">
 
-This repository contains the implementation of our method for **snapshot hyperspectral image reconstruction** using **implicit neural representations**, presented in:
+<h1>Snapshot Hyperspectral Imaging via Compressive Sensing and Implicit Neural Representation
+</h1>
 
-> **J. Boondicharern, A. R. Vazifeh, and J. W. Fleischer**,  
-> *Snapshot Hyperspectral Imaging via Compressive Sensing and Implicit Neural Representation,*  
-> *Computational Optical Sensing and Imaging (COSI), Optica Imaging Congress 2025,*  
-> [https://doi.org/10.1364/COSI.2025.CTu1B.5](https://doi.org/10.1364/COSI.2025.CTu1B.5)
+<a href="https://doi.org/10.1364/COSI.2025.CTu1B.5"><img src="https://img.shields.io/badge/COSI-Optica_Imaging_Congress_2025-orange?style=flat-square" alt="COSI 2025"></a>
 
+<p>
+  <a href="#">J. Boondicharern</a><sup>1</sup> &nbsp;·&nbsp;
+  <a href="#">A. R. Vazifeh</a><sup>1</sup> &nbsp;·&nbsp;
+  <a href="https://ece.princeton.edu/people/jason-w-fleischer">J. W. Fleischer</a><sup>1</sup>
+</p>
+
+<sup>1</sup> Department of Electrical and Computer Engineering, Princeton University
+
+<p><em>Computational Optical Sensing and Imaging (COSI), Optica Imaging Congress</em>, 2025</p>
+
+---
+
+</div>
 
 ---
 

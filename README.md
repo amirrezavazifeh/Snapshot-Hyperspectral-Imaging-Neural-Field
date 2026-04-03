@@ -6,16 +6,14 @@
 <a href="https://doi.org/10.1364/COSI.2025.CTu1B.5"><img src="https://img.shields.io/badge/COSI-Optica_Imaging_Congress_2025-orange?style=flat-square" alt="COSI 2025"></a>
 
 <p>
-  <a href="#">J. Boondicharern</a><sup>1</sup> &nbsp;·&nbsp;
-  <a href="#">A. R. Vazifeh</a><sup>1</sup> &nbsp;·&nbsp;
+  <a href="https://ece.princeton.edu/people/jatearoon-keene-boondicharern">Jatearoon Boondicharern</a><sup>1</sup> &nbsp;·&nbsp;
+  <a href="https://github.com/amirrezavazifeh">Amir Reza Vazifeh</a><sup>1</sup> &nbsp;·&nbsp;
   <a href="https://ece.princeton.edu/people/jason-w-fleischer">J. W. Fleischer</a><sup>1</sup>
 </p>
 
 <sup>1</sup> Department of Electrical and Computer Engineering, Princeton University
 
 <p><em>Computational Optical Sensing and Imaging (COSI), Optica Imaging Congress</em>, 2025</p>
-
----
 
 </div>
 

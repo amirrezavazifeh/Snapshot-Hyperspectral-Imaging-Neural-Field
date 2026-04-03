@@ -1,7 +1,6 @@
 <div align="center">
 
-<h1>Snapshot Hyperspectral Imaging via Compressive Sensing and Implicit Neural Representation
-</h1>
+<h1>Snapshot Hyperspectral Imaging via<br>Compressive Sensing and Implicit Neural Representation</h1>
 
 <a href="https://doi.org/10.1364/COSI.2025.CTu1B.5"><img src="https://img.shields.io/badge/COSI-Optica_Imaging_Congress_2025-orange?style=flat-square" alt="COSI 2025"></a>
 

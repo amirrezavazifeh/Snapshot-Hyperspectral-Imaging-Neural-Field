@@ -94,8 +94,6 @@ Below are qualitative reconstruction results for one spectral band from each dat
 
 ## Citation
 
-If you find this repository useful, please consider citing our paper:
-
 ```bibtex
 @inproceedings{boondicharern2025snapshot,
   title     = {Snapshot Hyperspectral Imaging via Compressive Sensing and Implicit Neural Representation},
